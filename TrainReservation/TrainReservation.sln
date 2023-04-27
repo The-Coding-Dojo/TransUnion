@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation.Domain", "TrainReservation.Domain\TrainReservation.Domain.csproj", "{30D53E46-91B2-4F3C-A8D2-60A1D8C15C5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation.Domain.Tests", "TrainReservation.Domain.Tests\TrainReservation.Domain.Tests.csproj", "{603286D0-9324-4DB7-A63A-6C4CE20DB587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{990DA25F-0F1A-4CD9-B50C-14DE43935B5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E6E1054D-751E-417D-B397-7E294AECD737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation.Api", "TrainReservation.Api\TrainReservation.Api.csproj", "{C177FCFA-2861-4771-B882-04BEB8873FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation.Api.Tests", "TrainReservation.Api.Tests\TrainReservation.Api.Tests.csproj", "{D42956FF-E22C-444B-945D-C665BA287F83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30D53E46-91B2-4F3C-A8D2-60A1D8C15C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D53E46-91B2-4F3C-A8D2-60A1D8C15C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D53E46-91B2-4F3C-A8D2-60A1D8C15C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D53E46-91B2-4F3C-A8D2-60A1D8C15C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603286D0-9324-4DB7-A63A-6C4CE20DB587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603286D0-9324-4DB7-A63A-6C4CE20DB587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603286D0-9324-4DB7-A63A-6C4CE20DB587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603286D0-9324-4DB7-A63A-6C4CE20DB587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C177FCFA-2861-4771-B882-04BEB8873FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C177FCFA-2861-4771-B882-04BEB8873FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C177FCFA-2861-4771-B882-04BEB8873FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C177FCFA-2861-4771-B882-04BEB8873FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42956FF-E22C-444B-945D-C665BA287F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42956FF-E22C-444B-945D-C665BA287F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42956FF-E22C-444B-945D-C665BA287F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42956FF-E22C-444B-945D-C665BA287F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30D53E46-91B2-4F3C-A8D2-60A1D8C15C5A} = {990DA25F-0F1A-4CD9-B50C-14DE43935B5E}
+		{603286D0-9324-4DB7-A63A-6C4CE20DB587} = {E6E1054D-751E-417D-B397-7E294AECD737}
+		{C177FCFA-2861-4771-B882-04BEB8873FC4} = {990DA25F-0F1A-4CD9-B50C-14DE43935B5E}
+		{D42956FF-E22C-444B-945D-C665BA287F83} = {E6E1054D-751E-417D-B397-7E294AECD737}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {033AA2BF-D10A-4000-9832-57168F1C696F}
+	EndGlobalSection
+EndGlobal
